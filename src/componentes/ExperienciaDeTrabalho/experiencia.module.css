@@ -1,0 +1,53 @@
+.apresentacao{
+    text-align: center;
+    padding-top: 50px;
+    background-color: #f6f8fc;
+    font-size: 1.3em;
+}
+.apresentacao h2{
+    padding-bottom: 10px;
+    font-size: 2.5em;
+    color: #32333c;
+}
+.experiencia{
+    color: #8a8fa3;
+}
+.cards{
+    display: flex;
+}
+.tracoLaranja{
+    height: 2px;
+    width: 80px;
+    border: 2px solid #FFC107;
+    position: relative;
+    bottom: 0;
+    left: calc(50% - 40px);
+    margin-bottom: 20px;
+}
+.sun{
+    background-color: #f0f8ff;
+}
+.moon{
+    background-color: #393838;
+}
+.moon h2,.moon .experiencia{
+    color: #cccccc;
+}
+.limitesecao{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+@media (max-width:720px) {
+    .cards{
+        flex-direction: column;
+        
+    }
+
+}
+@media (max-width:1024px) {
+    .cards{
+        flex-direction: column;
+        margin-top: 50px;
+        padding-bottom: 100px;
+    }
+}

@@ -1,0 +1,37 @@
+.card{
+    width: 30%;
+    margin: 20px;
+    text-align: left;
+    color: #8a8fa3;
+    border: 1px solid #8a8fa3;
+    padding: 50px 20px;
+}
+.moon{
+    color: #9f9f9f;
+    border: 1px solid #ffffff0d;
+}
+.moon h3{
+    color: #ffffff;
+}
+.sun{
+    color: #8a8fa3;
+}
+.sun h3{
+    color: #32333c;
+}
+.card:hover{
+    background-color: #feb633;
+    border: #edecec;
+}
+@media (max-width:1024px) {
+    .card{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media (max-width:720px) {
+    .card{
+        width: 90%;
+        font-size: 1em;
+    }
+}

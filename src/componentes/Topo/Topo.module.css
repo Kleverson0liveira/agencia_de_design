@@ -1,0 +1,37 @@
+.sun{
+    background-color: #fff;
+}
+.sun button{
+    border: 1px solid #747272;
+}
+.moon, .moon button, .moon img{
+ background-color: #252525;
+}
+.moon button{
+    border: 1px solid rgb(255, 255, 253);
+}
+.topo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+.iconeTema{
+    width: 30px;
+    height: 30px;
+    
+}
+.topo button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topo img {
+    max-height: 35px;
+}
+
